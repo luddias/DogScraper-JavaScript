@@ -1,1 +1,1 @@
-# ProjetoScrapper-JavaScript
+# DogScraper-JavaScript
