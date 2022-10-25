@@ -12,12 +12,12 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap" rel="stylesheet">
-  <!-- <script type="text/javascript" src="js/script.js"></script> -->
+  <script type="text/javascript" src="js/script.js"></script>
 
   <title>Dog Scraper</title>
     
 </head>
-    <body>
+    <body onload="main()">
         <div class="skill">
             <div class="outer">
                 <div class="inner">
@@ -39,18 +39,6 @@
             </svg>
 
         </div>
-        <script>
-            let number = document.getElementById("number");
-            let counter = 0;
-            setInterval(()=> {
-                if(counter == 65){
-                    clearInterval();
-                }else{
-                    counter +=1;
-                    number.innerHTML = counter + "%";
-                }
-
-            },30);
-        </script>
+        <!-- <button>aqui</button> -->
     </body>
 </html>
